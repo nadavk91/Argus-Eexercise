@@ -35,8 +35,14 @@ sudo docker run -it -v $(pwd):/usr/workspace nadavk91/python-sel sh
 Step 6:
 as the shell open
 type
+
 python GitHubScrapper.py [LocalIp]
+
 dont forget to add the localIP as an argument to the script.
+
+for example:
+
+python GitHubScrapper.py 10.0.0.19
 
 There you go. the script is running, and I jope everything worked well :)
 
