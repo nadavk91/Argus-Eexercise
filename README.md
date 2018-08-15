@@ -5,7 +5,9 @@ In order to run the script you need to follow the next steps:
 Step 1: Create MongoDB docker
 
 in your linux machine run the command
+
 sudo docker pull mongo
+
 afther that, type
 
 sudo docker run -d -p 27017:27017 mongo
