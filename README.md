@@ -44,6 +44,6 @@ for example:
 
 python GitHubScrapper.py 10.0.0.19
 
-There you go. the script is running, and I jope everything worked well :)
+There you go. the script is running, and I hope everything worked well :)
 
 Nadav Kalma
