@@ -17,14 +17,18 @@ download the script "GitHubScrapper.py" to your machine
 
 Step 3:
 Pull the docker which the python script will run from.
+
 the docker contains python, chorme and selenium chrome driver,
+
 and python modules selenium and pymongo
 
 to pull the docker type:
+
 sudo docker pull nadavk91/python-sel
 
 step 4:
 before running the docker and the script, make sure you know your ip.
+
 It will be used when you run the script in order to connect to the mongo db
 
 Step 5:
@@ -34,6 +38,7 @@ sudo docker run -it -v $(pwd):/usr/workspace nadavk91/python-sel sh
 
 Step 6:
 as the shell open
+
 type
 
 python GitHubScrapper.py [LocalIp]
